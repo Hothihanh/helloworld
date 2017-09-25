@@ -21,5 +21,10 @@ namespace hello_world
         {
             lblhelloworld.Text = "hello world !";
         }
+
+        private void Frmhelloworld_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

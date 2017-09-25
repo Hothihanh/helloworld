@@ -34,7 +34,7 @@
             // 
             // btnshow
             // 
-            this.btnshow.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnshow.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnshow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnshow.ForeColor = System.Drawing.Color.Red;
             this.btnshow.Location = new System.Drawing.Point(103, 322);
@@ -66,6 +66,7 @@
             this.MinimumSize = new System.Drawing.Size(400, 385);
             this.Name = "Frmhelloworld";
             this.Text = "hello world";
+            this.Load += new System.EventHandler(this.Frmhelloworld_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
